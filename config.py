@@ -1,0 +1,13 @@
+QASE_PROJECT_CODE = "TMM"
+QASE_CASE_URL_TEMPLATE = "https://app.qase.io/case/{project}-{id}"
+
+ASANA_API_BASE = "https://app.asana.com/api/1.0"
+ASANA_PROJECT_MAIN_GID = "1200923340924452"
+ASANA_PROJECT_SHELF_GID = "1211301691736509"
+ASANA_TASK_URL_TEMPLATE = "https://app.asana.com/0/{project}/{task}"
+
+ASANA_RATE_LIMIT = 1.5
+RETRY_ATTEMPTS = 3
+RETRY_DELAY = 2.0
+REQUEST_TIMEOUT = 30
+
